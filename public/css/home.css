@@ -1,0 +1,36 @@
+/* Author: Vaidik Ashishbhai Patel
+Student N0: 200494967
+Stripe API - Group Tutorial  */
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('/images/bannerimg.png'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    background-color: rgba(255, 255, 255, 0.8); 
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 20px; /* Add some space between h3 and form */
+}
+
+h3 {
+    color: black;
+    text-align: center;
+    padding: 20px;
+}
